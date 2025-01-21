@@ -156,8 +156,23 @@ function App() {
               </ContentSection>
 
               <ContentSection title="projects">
-                <div>
-                  <div className="flex items-center gap-1">
+                <div className="flex flex-col md:flex-row justify-between">
+                  <div className="flex items-center gap-2">
+                    <Github className="text-primary h-4 w-4" />
+                    <span
+                      className="text-primary cursor-pointer hover:underline transition-all duration-200 ease-in"
+                      onClick={() => {
+                        window.open(
+                          "https://cart-wish-frontend.vercel.app/",
+                          "_blank"
+                        );
+                      }}
+                    >
+                      CartWish(E-commerce)
+                    </span>
+                  </div>
+
+                  <div className="flex items-center gap-2">
                     <Github className="text-primary h-4 w-4" />
                     <span
                       className="text-primary cursor-pointer hover:underline transition-all duration-200 ease-in"
@@ -168,7 +183,22 @@ function App() {
                         );
                       }}
                     >
-                      Movie React
+                      Movie Maniac
+                    </span>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Github className="text-primary h-4 w-4" />
+                    <span
+                      className="text-primary cursor-pointer hover:underline transition-all duration-200 ease-in"
+                      onClick={() => {
+                        window.open(
+                          "https://react-todo-tailwind-rho.vercel.app/",
+                          "_blank"
+                        );
+                      }}
+                    >
+                      React Todo
                     </span>
                   </div>
                 </div>
