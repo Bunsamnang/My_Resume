@@ -9,10 +9,10 @@ export default function ContentSection({
 }) {
   return (
     <>
-      <h2 className="text-[#1e56a0] font-extrabold mb-4 pb-1 border-b-2 border-[#1e56a0] tracking-tight text-sm uppercase">
+      <h2 className="text-primary font-extrabold mb-4 pb-1 border-b-2 border-primary tracking-tight text-sm uppercase">
         {title}
       </h2>
-      <div>{children}</div>
+      <div className="space-y-1">{children}</div>
     </>
   );
 }

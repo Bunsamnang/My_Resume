@@ -8,8 +8,8 @@ const SideCardItem = ({
   children: React.ReactNode;
 }) => {
   return (
-    <div className="w-full p-2">
-      <div className="bg-[#1e56a0] text-white font-extrabold uppercase p-2 text-center rounded-sm">
+    <div className="w-full p-4">
+      <div className="bg-primary text-white font-extrabold uppercase p-2 mb-2 text-center rounded-sm">
         {title}
       </div>
       <div className="space-y-3">{children}</div>
