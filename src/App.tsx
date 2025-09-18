@@ -155,10 +155,13 @@ function App() {
                   </p>
                   <ul className="list-disc list-inside text-sm mt-2 space-y-1 text-gray-700">
                     <li>
-                      Developed and maintained web features using React and
-                      Tailwind CSS
+                      Worked on frontend development of the admin dashboard
+                      using React and Tailwind CSS
                     </li>
-                    <li>Worked with REST APIs to integrate backend services</li>
+                    <li>
+                      Implemented responsive UI components and reusable design
+                      patterns
+                    </li>
                     <li>
                       Collaborated with senior developers on debugging and
                       feature improvements
@@ -166,6 +169,39 @@ function App() {
                     <li>
                       Gained hands-on experience with Git/GitHub workflow in a
                       team environment
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="mt-6">
+                  <p className="text-primary font-bold">Bamnang</p>
+                  <p>
+                    Junior Full-Stack Developer /
+                    <span className="text-primary text-sm">
+                      {" "}
+                      Phnom Penh, Cambodia
+                    </span>
+                  </p>
+                  <p className="text-gray-500 text-sm">
+                    Jul 07, 2025 – Present
+                  </p>
+                  <ul className="list-disc list-inside text-sm mt-2 space-y-1 text-gray-700">
+                    <li>
+                      Developing and maintaining the full admin dashboard
+                      (frontend + backend)
+                    </li>
+                    <li>
+                      Implemented responsive UI with React, Tailwind CSS, and
+                      reusable components
+                    </li>
+                    <li>
+                      Designed and integrated backend APIs using Node.js and
+                      Express
+                    </li>
+                    <li>Managed database operations with PostgreSQL</li>
+                    <li>
+                      Collaborated with the team on new features, bug fixes, and
+                      deployments
                     </li>
                   </ul>
                 </div>
