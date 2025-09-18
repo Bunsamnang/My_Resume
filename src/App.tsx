@@ -140,6 +140,37 @@ function App() {
                 <ListItem title="Awarded a 100% scholarship for Bachelor’s Degree in Software Development at AUPP (Techo Digital Talent Scholarship 2023)" />
               </ContentSection>
 
+              <ContentSection title="experience">
+                <div>
+                  <p className="text-primary font-bold">Bamnang</p>
+                  <p>
+                    Web Developer Intern /
+                    <span className="text-primary text-sm">
+                      {" "}
+                      Phnom Penh, Cambodia
+                    </span>
+                  </p>
+                  <p className="text-gray-500 text-sm">
+                    Feb 17, 2025 – Jun 17, 2025 (4 months)
+                  </p>
+                  <ul className="list-disc list-inside text-sm mt-2 space-y-1 text-gray-700">
+                    <li>
+                      Developed and maintained web features using React and
+                      Tailwind CSS
+                    </li>
+                    <li>Worked with REST APIs to integrate backend services</li>
+                    <li>
+                      Collaborated with senior developers on debugging and
+                      feature improvements
+                    </li>
+                    <li>
+                      Gained hands-on experience with Git/GitHub workflow in a
+                      team environment
+                    </li>
+                  </ul>
+                </div>
+              </ContentSection>
+
               <ContentSection title="online certificate">
                 <span
                   className="text-primary cursor-pointer hover:underline transition-all duration-200 ease-in"
